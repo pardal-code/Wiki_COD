@@ -1,0 +1,150 @@
+/* Estilização do logo*/
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 8%;
+    height: auto;
+    margin-right: 20px;
+}
+
+#bem_vindo {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/* Estilização dos links externos*/
+
+.sidebar #submenu {
+    display: none;
+}
+
+.sidebar input[type="checkbox"]:checked + label + #submenu {
+    display: block;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.container_grid label {
+    padding: -1px;
+}
+
+.container_grid {
+    margin-bottom: 15px;
+}
+/* Estilização da tabela */
+
+#tabela_jogos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#tabela_jogos th,
+#tabela_jogos td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+#tabela_jogos th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+#tabela_jogos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#tabela_jogos tr:hover {
+    background-color: #f1f1f1;
+}
+
+#capa_warzone {
+    display: flex;
+    gap: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container figcaption {
+    margin-top: 0.5rem;
+}
+
+
+/* Estilização da figura que contém o logo */
+#logo_call_of_duty {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#logo_call_of_duty img {
+    max-width: 100%;
+    height: auto;
+}
+
+#logo_call_of_duty figcaption {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+
+/* Estilização da figura que contém o gif */
+#press_F {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#press_F img {
+    width: 75%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#press_F figcaption {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/*Estilização do footer*/
+
+.conteudo {
+    display: flex;
+    justify-content: space-between
+}
+
+.escrita {
+    font-size: 13px;
+    margin-left: 5%;
+}
+
+.imgs {
+    display: flex;
+    margin-right: 5%;
+}
